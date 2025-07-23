@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Document</title>
+</head>
+<body>
+	<h1 align="center">Registration Form</h1>
+	<form action="register" method="post">
+		<h3>Basic Details</h3>
+		<label>Full Name :</label> <input type="text" placeholder="First Name"
+			name="firstname" required /> <input type="text"
+			placeholder="Middle Name" name="middlename" /> <input type="text"
+			placeholder="Last Name" name="lastname" required /> <br />
+		<br /> <label for="">Date Of Birth :</label> <input type="date"
+			name="dob"> <br>
+		<br> <label for="">Gender :</label> <input type="radio"
+			name="gender" value="Male" id="male"><label for="male">Male</label>
+		<input type="radio" name="gender" value="Female" id="female">
+		<label for="female">Female</label> <br>
+		<br> <label for="">Marital Status :</label> <input type="radio"
+			name="mrstatus" value="Unmarried" id="un"> <label for="un">Unmarried</label>
+		<input type="radio" name="mrstatus" value="Married" id="m"> <label
+			for="m">Married</label> <input type="radio" name="mrstatus"
+			value="Divorced" id="d"> <label for="d">Unmarried</label> <br>
+		<br> <label for="">Education Qualifications :</label> <select
+			name="Qualifications">
+			<option value="btech">BTech</option>
+			<option value="mtech">MTech</option>
+			<option value="bca">BCA</option>
+			<option value="mca">MCA</option>
+			<option value="bcs">BCS</option>
+		</select> <br>
+		<br>
+		<hr>
+		<br>
+		<h3>Contact Details</h3>
+		<label>Email Address:</label> <input type="email"
+			placeholder="Enter Your Email" name="email" required /> <br />
+		<br /> <label for="">Mobile No.: </label> <input type="number"
+			placeholder="Enter 10 digit Number" name="mobno"> <br>
+		<br> <label for="">Address :</label> <input type="text"
+			placeholder="Enter Your Address" name="address"> <br>
+		<br>
+		<hr>
+		<br>
+
+		<h3>Set Password</h3>
+		<input type="password" placeholder="Set New Password" name="pass">
+		<hr>
+		<br>
+		<br> <label for=""><b>Terms and Conditions</b></label>
+		<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+			Architecto rem laboriosam facere sapiente, recusandae nihil? Ipsam
+			iste ut quibusdam, deserunt quam reiciendis laudantium illum possimus
+			a, odio dolorum, quos facilis.</p>
+		<input type="checkbox" name="tandc" id="agree"><label
+			for="agree">Agree</label> <br>
+		<br>
+
+		<Button type="submit">Submit</Button>
+	</form>
+</body>
+</html>
